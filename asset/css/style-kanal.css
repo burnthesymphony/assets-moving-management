@@ -1,0 +1,109 @@
+#featured{
+	width:630px;
+	position:relative;
+	height:300px;
+	background:#fff;
+}
+#featured ul.ui-tabs-nav{ 
+	position:absolute; 
+	top:0; left:400px; 
+	list-style:none; 
+	padding:0; margin:0; 
+	width:250px; 
+}
+#featured ul.ui-tabs-nav li{ 
+	padding:1px 0; padding-left:13px;  
+	font-size:12px; 
+	color:#666; 
+}
+#featured ul.ui-tabs-nav li img{
+	float:left;
+	background:#fff;
+	border:1px solid #eee;
+	padding: 2px;
+	margin: 5px;
+}
+#featured ul.ui-tabs-nav li span{
+	font-size:11px;
+	line-height:15px;
+	text-decoration: none;
+}
+#featured li.ui-tabs-nav-item a{
+	display:block;
+	height:67px;
+	color:#000000;
+	background:#fff;
+	width: 210px;
+	margin-top: 5px;
+	text-decoration: none;
+}
+#featured li.ui-tabs-nav-item span {
+	display:block;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-right: 3px;
+	padding-left: 3px;
+	margin-top: 5px;
+}
+#featured li.ui-tabs-nav-item a:hover{
+	background:#f2f2f2;
+}
+#featured li.ui-tabs-selected{ 
+	background:url('images/selected-item.gif') top left no-repeat;  
+}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a{
+	background-color: #009900;
+}
+.jdl-slide1 {
+	font-size: 11px;
+	margin-top: 6px;
+	margin-right: 4px;
+	margin-left: 3px;
+}
+#featured .ui-tabs-panel{
+	width:400px;
+	height:300px;
+	position:relative;
+	background-color: #006600;
+}
+#featured .ui-tabs-panel .info{
+	position:absolute;
+	bottom:0px;
+	left:0;
+	height:95px;
+	background-image: url(images/transparent-bg.png);
+}
+#featured .info h2{
+	font-size:15px;
+	color:#fff;
+	overflow:hidden;
+	display: block;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-weight: bold;
+	padding-top: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+#featured .info p{
+	font-family:Verdana;
+	font-size:11px;
+	line-height:15px;
+	color:#f0f0f0;
+	margin-right: 15px;
+	margin-left: 15px;
+	display: block;
+	padding-top: 0px;
+	margin-top: 4px;
+}
+#featured .info a{ 
+	text-decoration:none; 
+	color:#fff; 
+}
+#featured .info a:hover{
+	text-decoration:underline;
+}
+#featured .ui-tabs-hide{ 
+	display:none; 
+}

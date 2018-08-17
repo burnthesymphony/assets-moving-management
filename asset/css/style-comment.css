@@ -1,0 +1,335 @@
+/*
+Title:		Master styles for screen media
+name:		justine@gentlecode.net
+*/
+
+/* Links 
+********************************************************/
+
+.commentlist a {
+	color: #2A5DB0;
+	outline: none;
+	font-size:15px;
+	text-decoration: none;
+}
+
+.commentlist a:hover {
+	text-decoration: underline;
+}
+
+.commentlist strong {
+	color: #000;
+}
+
+.commentlist blockquote {
+	color:#7b7b7b;
+	padding:0 8px;
+	margin:15px 25px;
+	border-left:3px solid #CCC;
+	font:italic 1em Georgia, "Times New Roman", Times, serif;
+	letter-spacing:.03em;
+	}
+	
+.commentlist h1 {
+    font-size:22px;
+    padding:3px 0px;
+}
+	
+.commentlist h2 {
+    font-size:20px;
+    padding:3px 0px;
+}
+
+.commentlist h3 {
+    font-size:14px;
+    font-weight:normal;
+    padding:5px 0px;
+}
+
+.commentlist h4 {
+    font-size:12px;
+    font-weight:normal;
+    padding:0px 0px;
+}
+.commentlist h5 {
+    font-size:12px;
+    font-weight:normal;
+    padding:5px 0px;
+}
+.commentlist h6 {
+    font-size:12px;
+    font-weight:normal;
+    padding:5px 0px;
+}
+
+
+
+
+/* Comments */
+
+.commentlist {
+	width: 640px;
+	padding: 0px;
+	padding-left:10px;
+}
+
+.commentlist  ul li{
+	padding: 0px;
+clear:both
+}
+
+.comments {
+	padding: 0px;
+}
+
+.comments ul li {
+	padding: 0px;
+	border-bottom: 1px solid #363636;
+	font-weight: bold;
+
+}
+
+.comments ul li:first-child {
+	padding-top: 0;
+}
+
+.comments ul li:last-child {
+	border: none;
+}
+
+.comments ul li span { 
+	display: block;
+	font-weight: normal;
+	line-height: 16px; 
+}
+
+/* COMMENTS
+------------------------------------------------------------- */
+
+#name,#email,#comment,#url,#code{
+background:#FFF !important;
+border-radius:2px;
+-moz-border-radius:2px;
+-webkit-border-radius:2px;
+border-color:#6d6d6d #bfbfbf #bfbfbf #6d6d6d;
+border-style:solid;
+border-width:1px;
+padding:2px;
+
+}
+
+
+#commentform textarea {
+width:98%;
+height:100px;
+border-radius:4px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+}
+
+#commentform label {
+font:12px Arial, sans-serif;
+display:block;
+width:120px;
+float:left;
+}
+
+.reply {
+	overflow: hidden;
+}
+
+.reply a,.reply a:visited {
+	color:#303030;
+	display:block;
+	text-align:right;
+	text-decoration:none !important;
+	font: 11px Arial, sans-serif;
+	position:relative;
+	float:right;
+	padding: 1px !important;
+	margin-bottom: 0px;
+}
+
+.reply a:hover {
+	text-decoration:none;
+	color:#777;
+}
+
+.commentlist li {
+	font:13px Arial, sans-serif;
+	line-height:160%;
+	background:#fff;
+	border-bottom:1px solid #DDD;
+	list-style:none;
+	margin:0;
+	}
+
+.commentlist li.byuser {
+	background-color: #eee;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+.commentlist li.bypostname {
+	background: #444 !important;
+	text-shadow: 1px 1px 1px #333;
+	color: #fff;
+	padding-bottom:10px;
+	margin-top:20px;
+}
+
+.commentlist li.bypostname a{
+	text-shadow: 1px 1px 1px #333;
+	color: #fff;
+}
+
+.commentlist li.bypostname p.love {
+font:12px Arial, sans-serif;
+color:#aaa;
+line-height:160%;
+padding:10px 0;
+}
+
+.commentlist li.bypostname p.love strong{
+color:#fff;
+}
+
+.commentlist li.bypostname h3.commentform {
+	font:13px Arial, sans-serif;
+	font-weight:bold;
+	border-bottom:2px solid #fff;
+	color:#fff;
+}
+
+.commentlist li h3 {
+font:16px Arial, sans-serif;
+font-weight:700;
+line-height:24px;
+border-bottom:2px solid #303030;
+color:#303030;
+}
+
+h3#comments {
+	font:13px Arial, sans-serif;
+	font-weight:700;
+	color:#303030;
+}
+
+h3.commentform {
+	font:13px Arial, sans-serif;
+	font-weight:700;
+	border-bottom:2px solid #303030;
+	color:#303030;
+}
+
+.commentlist li li {
+	border-bottom:none;
+	border-left:1px solid #CCC;
+	padding-left:25px;
+	padding-bottom:0px;
+	padding-top:5px;
+	margin:0 0 5px 5px;
+}
+
+.commentlist code {
+background:#fff;
+color:#777;
+margin:10px;
+padding:6px;
+}
+
+.avatar {
+float:left;
+border:none;
+margin:0 10px 20px 0;
+padding:2px;
+}
+
+#trackbacklist li {
+margin: 2px 0 2px 20px;
+}
+
+#trackbacklist {
+margin:2px 0 2px;
+}
+
+#trackbacklist cite {
+font-style:normal;
+}
+
+cite.fn {
+	font:12px Arial, sans-serif;
+	font-weight:700;
+	letter-spacing:-0.05em;
+	display:block;
+	padding:3px 0 0;
+}
+
+.says {
+display:none;
+}
+
+.comment-name {
+overflow:hidden;
+}
+
+.commentmetadata {
+float:left;
+}
+
+.comment-date a,.comment-date a:visited {
+color:#9f9f9f;
+font-size:10px;
+text-decoration:none;
+}
+
+.commentmetadata a:hover,.commentmetadata a:active {
+text-decoration:underline;
+color:#333;
+}
+
+#respond {
+}
+
+#respond #submit {
+	border: 1px solid #ddd;
+	background-color: #eee;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px 25px;
+	cursor: pointer;
+	font: 13px Arial, sans-serif;
+	color: #454545;
+}
+
+#respond #submit:hover {
+	color: #005fa6;
+}
+
+p#cancel-comment-reply {
+font:10px Arial, sans-serif;
+font-weight:700;
+text-decoration:none;
+float:right;
+background:#c61818;
+-webkit-border-radius:2px;
+-moz-border-radius:2px;
+color:#fff;
+line-height:22px;
+margin-top:-25px;
+padding:0 10px;
+}
+
+p#cancel-comment-reply a {
+color:#fff;
+text-decoration:none;
+text-shadow: none!important;
+}
+
+p.love {
+font:12px Arial, sans-serif;
+color:#777;
+line-height:160%;
+padding:10px 0;
+}
+	

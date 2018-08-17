@@ -1,0 +1,213 @@
+body {
+	font-family:arial;
+	padding:0px;
+	margin:0px;
+	background:#f5f5f5
+}
+div.content {
+	padding:10px 20px;
+	width:920px;
+	height:500px auto;
+	background-color:#c0c0c0;
+	display:block;
+	top:50%;
+	left:50%;
+}
+div.content h1 {
+	font-size:18pt;
+	border-bottom:5px solid #a00;
+	padding:0px;
+	margin:10px 0px 20px;
+	width:80%;
+}
+
+div.content h3 {
+	font-size:18pt;
+	border-bottom:5px solid #a00;
+	padding:0px;
+	margin:10px 0px 20px;
+	width:98%;
+}
+.nav {
+background: #999; /* for non-css3 browsers */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6784B3', endColorstr='#829DC1'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#6784B3), to(#829DC1)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #6784B3,  #829DC1); /* for firefox 3.6+ */ 
+color:#ffffff;
+
+}
+.nav a {
+color:#ffffff;
+font-weight:bold;
+font-size:11pt;
+text-decoration:none;	
+}
+div.content div.data table {
+	background:#fff;
+
+}
+.tbl{
+	width:910px;
+	background:#fff;
+
+}
+div.content div.data table td {
+	font-size:9pt;
+	padding:5px 10px;
+	border:1px solid #f0f0f0;
+	text-align: left;
+}
+.mceLayout {
+	width:500px;
+}
+div.content div.data table th {
+	text-align: left;
+	font-size: 8pt;
+	padding: 10px 10px 7px;
+	text-transform: uppercase;
+	color: #fff;
+	background:url(../images/head.gif) left -5px repeat-x;
+}
+
+div.paging {
+	font-size: 9pt;
+	margin:5px 0px;
+	
+}
+div.paging a {
+	color:#900;
+	text-transform: uppercase;
+	text-decoration: none;
+	display:block; 
+	float:left;
+	width:15px;
+	background-color:#f0f0f0;
+	border:1px solid #c0c0c0; 
+	padding:3px;
+}
+div.paging strong {
+	color:#900;
+	text-transform: uppercase;
+	text-decoration: none;
+	display:block; 
+	float:left;
+	width:15px;
+	background-color:#f0f0f0;
+	border:1px solid #c0c0c0;
+	padding:3px;
+}
+div.paging a:hover {
+	color:#c00;
+}
+div.paging b {
+	color:#900;
+		width:25px;
+	display:block; 
+	float:left;
+	width:15px;
+	
+}
+
+div.success {
+	font-size:14pt;
+	background:url(../images/accept.png) left 5px no-repeat;
+	padding:0px;
+	padding-left:20px;
+	margin:0px 0px 10px;
+	color:#060;
+	width:80%;
+}
+
+a{
+	font-size: 9pt;
+	color:#900;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+a.update {
+	background:url(../images/update.png) left center no-repeat;
+	padding-left:20px;
+}
+a.delete {
+	background:url(../images/delete.png) left center no-repeat;
+}
+a.add {
+	background:url(../images/add.png) left center no-repeat;
+	font-size: 12pt;
+	padding-left:20px;
+}
+a.view {
+	background:url(../images/view.png) left center no-repeat;
+}
+a.back {
+	background:url(../images/prev.gif) left center no-repeat;
+}
+a.update:hover, a.delete:hover, a.add:hover, a.view:hover {
+	color:#000;
+}
+
+input.text {
+	border:2px solid #aaa;
+}
+hr {
+	border-bottom:5px solid #a00;
+}
+.error {
+	background: #FBE6F2 none repeat scroll 0 0;
+	border: 1px solid #D893A1;
+	color: #333333;
+	margin: 5px 0 0;
+	padding: 5px;
+	font-size: 10px;
+	font-family: Lucida Grande,Verdana,Geneva,Sans-serif;
+}
+
+/*buat form */
+label{
+float: left;
+width: 120px;
+font-size:12px;
+border-right:1px solid #ffffff;
+}
+
+input, textarea{
+width: 180px;
+margin-bottom: 5px;
+
+}
+
+textarea{
+height: 250px;
+float:left;
+}
+
+.boxes{
+width: 1em;
+}
+
+.frm{
+width:920px;
+background-color:#f0f0f0;
+border:1px solid #ffffff;
+padding:3px;
+padding-left:5px;
+padding-top:5px;
+
+}
+
+input[type=submit], form a {
+	border: none;
+	margin-right: 1em;
+	padding: 6px;
+	text-decoration: none;
+	font-size: 12px;
+	-moz-border-radius: 4px;
+	background: #348075;
+	left:400px;
+	color: white;
+	box-shadow: 0 1px 0 white;
+	-moz-box-shadow: 0 1px 0 white;
+	-webkit-box-shadow: 0 1px 0 white;
+
+}

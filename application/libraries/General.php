@@ -1,0 +1,56 @@
+<?php
+
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * Description of General
+ *
+ * @author gieart
+ */
+class General {
+
+    //put your code here
+    var $ci;
+
+    function __construct() {
+        $this->ci = &get_instance();
+    }
+
+    function isLogin() {
+        if ($this->ci->session->userdata('is_login') == TRUE) {
+            return TRUE;
+        } else {
+            return FALSE;
+        }
+    }
+
+    function isAdmin() {
+
+        if ($this->ci->session->userdata('type') == '1' || $this->ci->session->userdata('type') == '8') {
+            return TRUE;
+        } else {
+            return FALSE;
+        }
+    }
+
+
+    function checkAdmin() {
+        if (($this->isLogin() && $this->isAdmin()) != TRUE) {
+            $this->ci->session->set_flashdata('error', 'Maaf, Anda tidak memiliki hak akses sebagai admin');
+            redirect('users/login');
+        }
+    }
+
+  function stripHTMLtags($str)
+{
+    $t = preg_replace('/<[^<|>]+?>/', '', htmlspecialchars_decode($str));
+    $t = htmlentities($t, ENT_QUOTES, "UTF-8");
+    return $t;
+}
+
+}
+
+?>

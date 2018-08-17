@@ -1,0 +1,23 @@
+$(function(){
+	$("#capslide_img_cont4").capslide({
+   	caption_color:'black',
+      caption_bgcolor:'#3ace1d',
+      overlay_bgcolor:'#3ace1d',
+      border:'',
+      showcaption:false
+    });
+	$("#capslide_img_cont5").capslide({
+		caption_color:'black',
+      caption_bgcolor:'#3ace1d',
+      overlay_bgcolor:'#3ace1d',
+      border:'',
+      showcaption:false
+   });
+	$("#capslide_img_cont6").capslide({
+   	caption_color:'black',
+   	caption_bgcolor:'#3ace1d',
+   	overlay_bgcolor:'#3ace1d',
+   	border:'',
+   	showcaption:false
+   });
+});

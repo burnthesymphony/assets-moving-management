@@ -1,0 +1,72 @@
+.ic_container{
+	vertical-align:baseline;
+	position:relative;    /*-moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -khtml-border-radius:10px;
+    -moz-box-shadow: 0 1px 3px #888;
+    -webkit-box-shadow: 0 1px 3px #888;*/
+}
+.overlay{
+    opacity:0.3;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+.ic_caption{
+    position:absolute;    
+    opacity:0.6;   
+    overflow:hidden;
+    margin:0px;
+    padding:0px;
+    left:0px;
+    right:0px;
+    cursor:default;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+}
+.ic_category{
+    text-transform:uppercase;
+    font-size:11px;
+    letter-spacing:3px;
+    padding:5px;
+    margin:0px;
+}
+.ic_caption h3{
+	margin:0px;
+	font-size:18px;
+	padding-top: 7px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+}
+.ic_caption h3 a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.ic_caption h3 a:hover{
+	color: #FFFF00;
+	text-decoration: underline;
+}
+.ic_text{
+    padding:5px;
+    margin:0px;
+    text-align:justify;
+    font-size:11px;
+
+}
+.date-slide {
+	font-size: 12px;
+	color: #336600;
+	margin-top: 8px;
+	font-weight: bold;
+}
+.teaser-slide {
+	float: left;
+	width: 190px;
+	font-size: 12px;
+	line-height: 15px;
+	margin-top: 7px;
+	color: #555555;
+}
